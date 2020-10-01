@@ -1,0 +1,296 @@
+.logo:hover {
+  opacity: 0.7;
+}
+.container {
+  max-width: 1170px;
+}
+.lighting {
+  color: #00b894;
+}
+p {
+  color: #707070;
+  font-size: 15px;
+  font-family: "PT Sans";
+}
+a {
+  color: #ffffff;
+}
+a:hover {
+  text-decoration: none;
+}
+h6,
+h5,
+h4,
+h3,
+h2,
+h1 {
+  font-family: "Roboto Slab";
+  font-weight: bold;
+}
+body header {
+  background-image: url(images/background_header_1.jpg);
+  background-repeat: no-repeat;
+  padding-top: 53px;
+}
+body header .head-menu nav {
+  padding-top: 0;
+  float: right;
+  font-family: "Roboto Slab";
+}
+body header .head-menu nav ul li {
+  margin-right: 30px;
+}
+body header .head-menu nav ul li a {
+  color: #323232 !important;
+}
+body header .head-menu nav ul li a:hover {
+  color: #00b894 !important;
+}
+body header .head-menu nav ul li:last-child {
+  margin-right: 0;
+  margin-top: -5px;
+  background-color: #00b894;
+}
+body header .head-menu nav ul li:last-child:hover {
+  background-color: #323232;
+}
+body header .head-menu nav ul li:last-child:hover a {
+  color: #00b894 !important;
+}
+body header .head-menu nav ul li:last-child a {
+  width: 100%;
+  color: #ffffff !important;
+  padding: 10px 20px;
+}
+body header .head-banner {
+  padding-top: 23%;
+  padding-bottom: 23%;
+}
+body header .head-banner h4 {
+  margin-bottom: 30px;
+  font-weight: normal;
+  font-size: 28px;
+}
+body header .head-banner h2 {
+  margin-bottom: 50px;
+  font-size: 48px;
+}
+body header .head-banner p {
+  margin-bottom: 50px;
+  max-width: 650px;
+  font-size: 16px;
+}
+body header .head-banner a {
+  font-size: 14px;
+  width: 180px;
+  height: 375px;
+  font-family: "Roboto Slab";
+}
+body header .head-banner .about {
+  margin-right: 30px;
+  padding: 15px 60px;
+  background-color: #00b894;
+}
+body header .head-banner .about:hover {
+  color: #00b894;
+  background-color: #323232;
+}
+body header .head-banner .download {
+  padding: 15px 47px;
+  background-color: #323232;
+}
+body header .head-banner .download:hover {
+  color: #323232;
+  background-color: #00b894;
+}
+body main .about-me {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+body main .about-me .text-block {
+  margin-right: 44px;
+  max-width: 61%;
+  float: left;
+}
+body main .about-me .text-block h5 {
+  margin-bottom: 35px;
+  font-weight: normal;
+}
+body main .about-me .text-block h5::after {
+  display: block;
+  margin-top: 15px;
+  content: " ";
+  background-color: #00b894;
+  width: 50px;
+  height: 2px;
+}
+body main .about-me .text-block h3 {
+  text-decoration: underline rgba(0, 184, 148, 0.2);
+  font-size: 36px;
+  margin-bottom: 55px;
+}
+body main .about-me .text-block p {
+  margin-bottom: 35px;
+}
+body main .services {
+  padding-top: 200px;
+  padding-bottom: 150px;
+  background-color: #f5f6fb;
+}
+body main .services h1 {
+  text-align: center;
+  text-decoration: underline rgba(0, 184, 148, 0.2);
+  font-size: 48px;
+  margin-bottom: 140px;
+}
+body main .services .row {
+  margin-bottom: 100px;
+}
+body main .services .row:last-child {
+  margin-bottom: 0;
+}
+body main .services .text-block {
+  padding: 55px 42px;
+  background-color: #ffffff;
+  max-width: 370px;
+  margin-bottom: 50px;
+}
+body main .services .text-block h5 {
+  margin-top: 35px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+body main .skill-statistics {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: white;
+  background-color: #00b894;
+}
+body main .skill-statistics h1 {
+  text-align: center;
+  text-decoration: underline rgba(0, 184, 148, 0.2);
+  font-size: 48px;
+  margin-bottom: 70px;
+}
+body main .skill-statistics .skill1 {
+  width: 92%;
+}
+body main .skill-statistics .skill1::before {
+  content: "92%";
+  font-size: 16px;
+  font-family: "Roboto Slab";
+  font-weight: normal;
+  display: block;
+  position: absolute;
+  top: -35px;
+  right: -8px;
+}
+body main .skill-statistics .skill2 {
+  width: 85%;
+}
+body main .skill-statistics .skill2::before {
+  content: "85%";
+  font-size: 16px;
+  font-family: "Roboto Slab";
+  font-weight: normal;
+  display: block;
+  position: absolute;
+  top: -35px;
+  right: -8px;
+}
+body main .skill-statistics .skill3 {
+  width: 97%;
+}
+body main .skill-statistics .skill3::before {
+  content: "97%";
+  font-size: 16px;
+  font-family: "Roboto Slab";
+  font-weight: normal;
+  display: block;
+  position: absolute;
+  top: -35px;
+  right: -8px;
+}
+body main .skill-statistics .skill4 {
+  width: 90%;
+}
+body main .skill-statistics .skill4::before {
+  content: "90%";
+  font-size: 16px;
+  font-family: "Roboto Slab";
+  font-weight: normal;
+  display: block;
+  position: absolute;
+  top: -35px;
+  right: -8px;
+}
+body main .skill-statistics .skill5 {
+  width: 85%;
+}
+body main .skill-statistics .skill5::before {
+  content: "85%";
+  font-size: 16px;
+  font-family: "Roboto Slab";
+  font-weight: normal;
+  display: block;
+  position: absolute;
+  top: -35px;
+  right: -8px;
+}
+body main .skill-statistics .skill6 {
+  width: 72%;
+}
+body main .skill-statistics .skill6::before {
+  content: "72%";
+  font-size: 16px;
+  font-family: "Roboto Slab";
+  font-weight: normal;
+  display: block;
+  position: absolute;
+  top: -35px;
+  right: -8px;
+}
+body main .skill-statistics .text-block {
+  max-width: 500px;
+  margin-bottom: 50px;
+}
+body main .skill-statistics .text-block h6 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+body main .skill-statistics .text-block div {
+  height: 5px;
+  background-color: rgba(77, 205, 180, 0.3);
+}
+body main .skill-statistics .text-block div div {
+  position: relative;
+  background-color: #ffffff;
+}
+body main .skill-statistics .text-block div div::after {
+  right: 0;
+  position: absolute;
+  content: "";
+  display: block;
+  background-color: #ffffff;
+  border-radius: 100%;
+  height: 15px;
+  width: 15px;
+  top: -5px;
+}
+body main .lastest-project {
+  padding-top: 150px;
+}
+body main .technical-support {
+  background-color: #323232;
+}
+body main .technical-support h2 {
+  text-decoration: underline rgba(0, 184, 148, 0.2);
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+body main .technical-support .text-block {
+  background-color: #ffffff;
+  max-width: 60%;
+  width: 100%;
+}
