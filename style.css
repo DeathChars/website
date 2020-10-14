@@ -39,101 +39,101 @@ h1 {
   font-weight: bold;
   letter-spacing: 0;
 }
-body header {
+.start {
   background-image: url(images/background_header_1.jpg);
   background-repeat: no-repeat;
   padding-top: 53px;
   background-size: 100% 100%;
 }
-body header .head-menu nav {
+.start .head-menu nav {
   margin-top: -3px;
   padding: 0;
   float: right;
   font-family: "Roboto Slab";
 }
-body header .head-menu nav ul li {
+.start .head-menu nav ul li {
   margin-right: 28px;
 }
-body header .head-menu nav ul li a {
+.start .head-menu nav ul li a {
   color: #323232 !important;
 }
-body header .head-menu nav ul li a:hover {
+.start .head-menu nav ul li a:hover {
   color: #00b894 !important;
 }
-body header .head-menu nav ul li:last-child {
+.start .head-menu nav ul li:last-child {
   margin-right: 0;
   margin-top: -2px;
   background-color: #00b894;
   margin-left: 6px;
 }
-body header .head-menu nav ul li:last-child:hover {
+.start .head-menu nav ul li:last-child:hover {
   background-color: #323232;
 }
-body header .head-menu nav ul li:last-child:hover a {
+.start .head-menu nav ul li:last-child:hover a {
   color: #00b894 !important;
 }
-body header .head-menu nav ul li:last-child a {
+.start .head-menu nav ul li:last-child a {
   width: 100%;
   color: #ffffff !important;
   padding: 10px 37px !important;
 }
-body header .head-banner {
+.start .head-banner {
   padding-top: 22%;
   padding-bottom: 22%;
 }
-body header .head-banner h4 {
+.start .head-banner h4 {
   margin-bottom: 18px;
   font-weight: normal;
   font-size: 28px;
 }
-body header .head-banner h2 {
+.start .head-banner h2 {
   margin-bottom: 40px;
   font-size: 48px;
 }
-body header .head-banner p {
+  .start .head-banner p {
   margin-bottom: 56px;
   max-width: 655px;
   font-size: 16px;
   line-height: 30px;
   padding-left: 2px;
 }
-body header .head-banner a {
+  .start .head-banner a {
   font-size: 14px;
   font-family: "Roboto Slab";
 }
-body header .head-banner .about {
+  .start .head-banner .about {
   margin-right: 27px;
   padding: 13px 58px;
   background-color: #00b894;
 }
-body header .head-banner .about:hover {
+  .start .head-banner .about:hover {
   color: #00b894;
   background-color: #323232;
 }
-body header .head-banner .download {
+  .start .head-banner .download {
   padding: 12px 45px;
   background-color: #323232;
 }
-body header .head-banner .download:hover {
+  .start .head-banner .download:hover {
   color: #323232;
   background-color: #00b894;
 }
-body main .about-me {
+  main .about-me {
   padding-top: 153px;
   padding-bottom: 100px;
 }
-body main .about-me .text-block {
+  main .about-me .text-block {
   padding-top: 20px;
   margin-right: 67px;
   max-width: 705px;
   float: left;
 }
-body main .about-me .text-block h5 {
+  main .about-me .text-block h5 {
   margin-bottom: 26px;
   font-weight: normal;
   font-size: 22px;
 }
-body main .about-me .text-block h5::after {
+  main .about-me .text-block h5::after {
   display: block;
   margin-top: 16px;
   content: " ";
@@ -141,66 +141,66 @@ body main .about-me .text-block h5::after {
   width: 50px;
   height: 2px;
 }
-body main .about-me .text-block h3 {
+  main .about-me .text-block h3 {
   text-decoration: underline rgba(0, 184, 148, 0.2);
   font-size: 36px;
   margin-bottom: 39px;
   line-height: 50px;
 }
-body main .about-me .text-block p {
+  main .about-me .text-block p {
   margin-bottom: 35px;
 }
-body main .about-me img {
+  main .about-me img {
   max-width: 400px;
   width: 100%;
 }
-body main .services {
+  main .services {
   padding-top: 142px;
   padding-bottom: 121px;
   background-color: #f5f6fb;
 }
-body main .services h1 {
+  main .services h1 {
   text-align: center;
   text-decoration: underline rgba(0, 184, 148, 0.2);
   font-size: 48px;
   margin-bottom: 80px;
 }
-body main .services .row:last-child {
+  main .services .row:last-child {
   margin-bottom: 0;
 }
-body main .services .text-block {
+  main .services .text-block {
   margin-bottom: 29px;
   padding: 59px 38px;
   padding-bottom: 38px;
   background-color: #ffffff;
 }
-body main .services .text-block h5 {
+  main .services .text-block h5 {
   margin-top: 36px;
   margin-bottom: 22px;
   font-size: 20px;
 }
-body main .skill-statistics {
+  main .skill-statistics {
   padding-top: 140px;
   padding-bottom: 94px;
   color: white;
   background-color: #00b894;
 }
-body main .skill-statistics h1 {
+  main .skill-statistics h1 {
   text-align: center;
   text-decoration: underline rgba(0, 184, 148, 0.2);
   font-size: 48px;
   margin-bottom: 71px;
 }
-body main .skill-statistics .skills:first-child {
+  main .skill-statistics .skills:first-child {
   padding-right: 87px;
 }
-body main .skill-statistics .skills:last-child {
+  main .skill-statistics .skills:last-child {
   padding-left: 85px;
 }
-body main .skill-statistics .skill1 {
+  main .skill-statistics .skill1 {
   width: 92%;
 }
-body main .skill-statistics .skill1::before {
+  main .skill-statistics .skill1::before {
   content: "92%";
   font-size: 16px;
   font-family: "Roboto Slab";
@@ -210,10 +210,10 @@ body main .skill-statistics .skill1::before {
   top: -40px;
   right: -8px;
 }
-body main .skill-statistics .skill2 {
+  main .skill-statistics .skill2 {
   width: 85%;
 }
-body main .skill-statistics .skill2::before {
+  main .skill-statistics .skill2::before {
   content: "85%";
   font-size: 16px;
   font-family: "Roboto Slab";
@@ -223,10 +223,10 @@ body main .skill-statistics .skill2::before {
   top: -35px;
   right: -8px;
 }
-body main .skill-statistics .skill3 {
+  main .skill-statistics .skill3 {
   width: 97%;
 }
-body main .skill-statistics .skill3::before {
+  main .skill-statistics .skill3::before {
   content: "97%";
   font-size: 16px;
   font-family: "Roboto Slab";
@@ -236,10 +236,10 @@ body main .skill-statistics .skill3::before {
   top: -35px;
   right: -8px;
 }
-body main .skill-statistics .skill4 {
+  main .skill-statistics .skill4 {
   width: 90%;
 }
-body main .skill-statistics .skill4::before {
+  main .skill-statistics .skill4::before {
   content: "90%";
   font-size: 16px;
   font-family: "Roboto Slab";
@@ -249,10 +249,10 @@ body main .skill-statistics .skill4::before {
   top: -35px;
   right: -8px;
 }
-body main .skill-statistics .skill5 {
+  main .skill-statistics .skill5 {
   width: 85%;
 }
-body main .skill-statistics .skill5::before {
+  main .skill-statistics .skill5::before {
   content: "85%";
   font-size: 16px;
   font-family: "Roboto Slab";
@@ -262,10 +262,10 @@ body main .skill-statistics .skill5::before {
   top: -35px;
   right: -8px;
 }
-body main .skill-statistics .skill6 {
+  main .skill-statistics .skill6 {
   width: 72%;
 }
-body main .skill-statistics .skill6::before {
+  main .skill-statistics .skill6::before {
   content: "72%";
   font-size: 16px;
   font-family: "Roboto Slab";
@@ -275,23 +275,23 @@ body main .skill-statistics .skill6::before {
   top: -35px;
   right: -8px;
 }
-body main .skill-statistics .text-block {
+  main .skill-statistics .text-block {
   margin-bottom: 61px;
 }
-body main .skill-statistics .text-block h6 {
+  main .skill-statistics .text-block h6 {
   font-size: 16px;
   margin-bottom: 18px;
   font-weight: normal;
 }
-body main .skill-statistics .text-block div {
+  main .skill-statistics .text-block div {
   height: 5px;
   background-color: rgba(77, 205, 180, 0.3);
 }
-body main .skill-statistics .text-block div div {
+  main .skill-statistics .text-block div div {
   position: relative;
   background-color: #ffffff;
 }
-body main .skill-statistics .text-block div div::after {
+  main .skill-statistics .text-block div div::after {
   right: 0;
   position: absolute;
   content: "";
@@ -302,93 +302,93 @@ body main .skill-statistics .text-block div div::after {
   width: 15px;
   top: -5px;
 }
-body .lastest-project {
+  .lastest-project {
   padding-top: 142px;
 }
-body .lastest-project h2 {
+  .lastest-project h2 {
   text-decoration: underline rgba(0, 184, 148, 0.2);
   font-size: 36px;
   margin-bottom: 33px;
 }
-body .lastest-project nav {
+  .lastest-project nav {
   margin-bottom: 58px;
   padding: 0;
 }
-body .lastest-project ul li {
+  .lastest-project ul li {
   margin-right: 40px;
 }
-body .lastest-project ul li a {
+  .lastest-project ul li a {
   color: #707070 !important;
   padding: 0 !important;
   font-family: "PT Sans";
   font-size: 16px;
 }
-body .lastest-project ul li a:hover {
+  .lastest-project ul li a:hover {
   color: #00b894 !important;
 }
-body .lastest-project ul .active a {
+  .lastest-project ul .active a {
   color: #00b894 !important;
 }
-body .lastest-project .projects .row .text-block {
+  .lastest-project .projects .row .text-block {
   background-color: #e66d6d;
   padding: 57px 35px;
   padding-bottom: 60px;
   text-align: center;
   margin-bottom: 30px;
 }
-body .lastest-project .projects .row .text-block h5 {
+  .lastest-project .projects .row .text-block h5 {
   color: #ffffff;
   font-size: 24px;
   font-weight: normal;
 }
-body .lastest-project .projects .row .text-block h6 {
+  .lastest-project .projects .row .text-block h6 {
   margin-bottom: 38px;
   color: #ffffff;
   font-size: 14px;
   font-weight: normal;
 }
-body .lastest-project .projects .row .text-block p {
+  .lastest-project .projects .row .text-block p {
   color: #ffffff;
   margin-bottom: 39px;
 }
-body .lastest-project .projects .row .text-block span {
+  .lastest-project .projects .row .text-block span {
   color: #ffffff;
   font-family: "Roboto Slab";
 }
-body .lastest-project .feedback {
+  .lastest-project .feedback {
   padding-top: 101px;
   padding-bottom: 125px;
 }
-body .lastest-project .feedback h2 {
+  .lastest-project .feedback h2 {
   text-align: center;
   font-size: 48px;
   margin-bottom: 53px;
 }
-body .lastest-project .feedback .row {
+  .lastest-project .feedback .row {
   padding: 0 15px;
 }
-body .lastest-project .feedback .row .text-block {
+  .lastest-project .feedback .row .text-block {
   padding: 69px 37px;
   padding-bottom: 75px;
   margin-bottom: 25px;
   border: solid 2px #e5e5e5;
 }
-body .lastest-project .feedback .row .text-block p {
+  .lastest-project .feedback .row .text-block p {
   font-size: 16px;
   line-height: 30px;
   margin-top: 19px;
   margin-bottom: 41px;
 }
-body .lastest-project .feedback .row .text-block .avatar {
+  .lastest-project .feedback .row .text-block .avatar {
   position: relative;
 }
-body .lastest-project .feedback .row .text-block .avatar img {
+  .lastest-project .feedback .row .text-block .avatar img {
   float: left;
   margin-right: 15px;
   width: 70px;
   height: 70px;
 }
-body .lastest-project .feedback .row .text-block .avatar h6 {
+  .lastest-project .feedback .row .text-block .avatar h6 {
   vertical-align: middle;
   font-size: 18px;
   font-family: "Roboto Slab";
@@ -396,13 +396,13 @@ body .lastest-project .feedback .row .text-block .avatar h6 {
   padding-top: 14px;
   margin-bottom: 3px;
 }
-body .lastest-project .feedback .row .text-block .avatar h5 {
+  .lastest-project .feedback .row .text-block .avatar h5 {
   font-size: 15px;
   font-family: "Roboto Slab";
   font-weight: normal;
   color: #707070;
 }
-body .lastest-project .feedback .row .text-block .avatar span {
+  .lastest-project .feedback .row .text-block .avatar span {
   position: absolute;
   top: 20px;
   right: 0;
@@ -410,31 +410,31 @@ body .lastest-project .feedback .row .text-block .avatar span {
   font-size: 18px;
   color: #707070;
 }
-body .technical-support {
+  .technical-support {
   margin-bottom: 137px;
 }
-body .technical-support .help-image {
+  .technical-support .help-image {
   max-width: 45%;
   width: 100%;
   max-height: 645px;
 }
-body .technical-support .help {
+  .technical-support .help {
   float: right;
   width: 55%;
   background-color: #ffffff;
 }
-body .technical-support .help .text-block {
+  .technical-support .help .text-block {
   padding: 48px 0px;
   margin-left: 100px;
   max-width: 596px;
   width: 100%;
 }
-body .technical-support .help .text-block form .form-group {
+  .technical-support .help .text-block form .form-group {
   display: flex;
   justify-content: space-between;
 }
-body .technical-support .help .text-block form #name,
-body .technical-support .help .text-block form #email {
+  .technical-support .help .text-block form #name,
+  .technical-support .help .text-block form #email {
   padding: 16px;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -442,7 +442,7 @@ body .technical-support .help .text-block form #email {
   border: solid 1px #e5e5e5;
   width: 47.1%;
 }
-body .technical-support .help .text-block form #message {
+  .technical-support .help .text-block form #message {
   padding: 16px;
   padding-bottom: 8px;
   padding-top: 8px;
@@ -454,7 +454,7 @@ body .technical-support .help .text-block form #message {
   height: 148px;
   border: solid 1px #e5e5e5;
 }
-body .technical-support .help .text-block form #button {
+  .technical-support .help .text-block form #button {
   background-color: #00b894;
   color: #ffffff;
   font-size: 16px;
@@ -463,15 +463,15 @@ body .technical-support .help .text-block form #button {
   border: none;
   padding: 11px 30px;
 }
-body .technical-support .help .text-block form #button:hover {
+  .technical-support .help .text-block form #button:hover {
   background-color: #323232;
   color: #ffffff;
 }
-body .technical-support .help .text-block h5 {
+  .technical-support .help .text-block h5 {
   font-size: 22px;
   margin-bottom: 27px;
 }
-body .technical-support .help .text-block h5::after {
+  .technical-support .help .text-block h5::after {
   display: block;
   margin-top: 15px;
   content: " ";
@@ -479,60 +479,60 @@ body .technical-support .help .text-block h5::after {
   width: 50px;
   height: 2px;
 }
-body .technical-support .help .text-block h2 {
+  .technical-support .help .text-block h2 {
   text-decoration: underline rgba(0, 184, 148, 0.2);
   font-size: 36px;
   line-height: 50px;
   margin-bottom: 78px;
 }
-body .news {
+  .news {
   margin-bottom: 85px;
 }
-body .news .col-md-6 {
+  .news .col-md-6 {
   margin: auto;
 }
-body .news h2 {
+  .news h2 {
   text-align: center;
   text-decoration: underline rgba(0, 184, 148, 0.2);
   font-size: 48px;
   margin-bottom: 67px;
 }
-body .news .gray-background {
+  .news .gray-background {
   width: 100%;
   height: 300px;
 }
-body .news .block {
+  .news .block {
   margin-bottom: 50px;
 }
-body .news .block .text-block {
+  .news .block .text-block {
   padding: 19px 28px 50px;
   border: solid 1px #e5e5e5;
   border-top: none;
 }
-body .news .block .text-block .person p {
+  .news .block .text-block .person p {
   margin-bottom: 30px;
 }
-body .news .block .text-block .person p span {
+  .news .block .text-block .person p span {
   float: right;
 }
-body .news .block .text-block .information h5 {
+  .news .block .text-block .information h5 {
   font-size: 18px;
   margin-bottom: 18px;
   color: #323232;
 }
-body .news .block .text-block .information p {
+  .news .block .text-block .information p {
   margin-bottom: 28px;
 }
-body .news .block .text-block .information a {
+  .news .block .text-block .information a {
   font-family: "PT Sans";
   font-weight: bold;
   font-size: 18px;
   color: #707070 !important;
 }
-body .news .block .text-block .information a:hover {
+  .news .block .text-block .information a:hover {
   color: #00b894 !important;
 }
-body .add_logos {
+  .add_logos {
   text-align: center;
   margin-bottom: 120px;
   display: flex;
@@ -540,12 +540,12 @@ body .add_logos {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-body .add_logos img {
+  .add_logos img {
   margin-bottom: 25px;
   padding-left: 10px;
   padding-right: 10px;
 }
-body .add_logos img:last-child {
+  .add_logos img:last-child {
   margin-right: 0px;
 }
 .foot {
@@ -625,6 +625,7 @@ body .add_logos img:last-child {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-botton: 0;
 }
 .end .container p {
   margin-bottom: 0;
@@ -641,299 +642,299 @@ body .add_logos img:last-child {
   float: left;
 }
 @media (max-width: 1400px) {
-  body .technical-support {
+    .technical-support {
     margin-bottom: 80px;
   }
-  body .technical-support .help-image {
+    .technical-support .help-image {
     max-width: 100%;
   }
-  body .technical-support .help {
+    .technical-support .help {
     float: none;
     width: 100%;
   }
-  body .technical-support .help .text-block {
+    .technical-support .help .text-block {
     margin: auto;
     max-width: 70%;
   }
 }
 @media (max-width: 1200px) {
-  body main .about-me {
+    main .about-me {
     text-align: center;
     padding-bottom: 80px;
   }
-  body main .about-me h5::after {
+    main .about-me h5::after {
     margin: auto;
   }
-  body main .about-me .text-block {
+    main .about-me .text-block {
     margin-right: 0;
     max-width: 100%;
   }
-  body main .about-me .text-block h3 {
+    main .about-me .text-block h3 {
     margin-bottom: 45px;
   }
 }
 @media (max-width: 1090px) {
-  body main .lastest-project .feedback .row .text-block {
+    main .lastest-project .feedback .row .text-block {
     max-width: 700px;
     margin: auto;
     margin-bottom: 25px;
   }
 }
 @media (max-width: 992px) {
-  body header .head-menu nav {
+    .start .head-menu nav {
     width: 100%;
     padding-bottom: 25px;
   }
-  body header .head-menu nav ul {
+    .start .head-menu nav ul {
     margin-top: 15px;
   }
-  body header .head-menu nav ul li {
+    .start .head-menu nav ul li {
     background-color: #00b894;
     border-bottom: solid #f5f6fb 1px;
     padding-left: 15px;
     padding-right: 15px;
     margin-right: 0;
   }
-  body header .head-menu nav ul li a {
+    .start .head-menu nav ul li a {
     color: #ffffff !important;
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  body header .head-menu nav ul li:last-child {
+    .start .head-menu nav ul li:last-child {
     text-align: center;
     margin-left: 0;
     margin-top: 0;
     background-color: #e66d6d;
   }
-  body header .head-menu button {
+    .start .head-menu button {
     position: absolute;
     right: 0;
     top: -35px;
   }
-  body header .head-banner {
+    .start .head-banner {
     text-align: center;
   }
-  body header .head-banner h2 {
+    .start .head-banner h2 {
     font-size: 32px;
     margin-bottom: 30px;
   }
-  body header .head-banner p {
+    .start .head-banner p {
     margin-right: auto;
     margin-left: auto;
   }
-  body main .about-me .text-block h3 {
+    main .about-me .text-block h3 {
     font-size: 30px;
   }
-  body main .services {
+    main .services {
     padding-top: 120px;
     padding-bottom: 80px;
   }
-  body main .services h1 {
+    main .services h1 {
     font-size: 36px;
   }
-  body main .skill-statistics {
+    main .skill-statistics {
     padding-bottom: 80px;
     padding-top: 80px;
   }
-  body main .skill-statistics h1 {
+    main .skill-statistics h1 {
     font-size: 36px;
   }
-  body main .skill-statistics .skills {
+    main .skill-statistics .skills {
     padding-left: 40px;
     padding-right: 40px;
   }
-  body main .skill-statistics .skills:last-child {
+    main .skill-statistics .skills:last-child {
     padding-left: 40px;
     padding-right: 40px;
   }
-  body main .skill-statistics .skills:first-child {
+    main .skill-statistics .skills:first-child {
     padding-right: 40px;
   }
-  body main .lastest-project {
+    main .lastest-project {
     padding-bottom: 80px;
     padding-top: 80px;
   }
-  body main .lastest-project .feedback {
+    main .lastest-project .feedback {
     padding-bottom: 0;
     padding-top: 80px;
   }
-  body main .lastest-project h2 {
+    main .lastest-project h2 {
     font-size: 32px;
     margin-bottom: 20px;
     text-align: center;
   }
-  body main .lastest-project .feedback h2 {
+    main .lastest-project .feedback h2 {
     font-size: 32px;
   }
-  body main .technical-support .help {
+    main .technical-support .help {
     padding-left: 25px;
     padding-right: 25px;
   }
-  body main .technical-support .help .text-block {
+    main .technical-support .help .text-block {
     max-width: 100%;
   }
-  body main .technical-support .help .text-block h2 {
+    main .technical-support .help .text-block h2 {
     line-height: 40px;
     font-size: 26px;
     margin-bottom: 40px;
   }
-  body main .technical-support .help .text-block form #name {
+    main .technical-support .help .text-block form #name {
     width: 100%;
     margin-bottom: 25px;
     margin-right: 0;
   }
-  body main .technical-support .help .text-block form #email {
+    main .technical-support .help .text-block form #email {
     width: 100%;
   }
-  body main .technical-support .help .text-block form .form-group {
+    main .technical-support .help .text-block form .form-group {
     flex-direction: column;
   }
-  body main .news h2 {
+    main .news h2 {
     font-size: 36px;
   }
-  body .foot .foot-block {
+    .foot .foot-block {
     margin-top: 0;
     width: 33.333%;
     margin-bottom: 25px;
     text-align: center;
   }
-  body .foot .foot-about {
+    .foot .foot-about {
     margin-right: 0;
   }
-  body .foot .text-block p {
+    .foot .text-block p {
     max-width: 100% !important;
   }
-  body .foot .send-mail {
+    .foot .send-mail {
     margin-top: 50px;
     width: 100%;
   }
-  body .foot .send-mail form {
+    .foot .send-mail form {
     width: 100%;
   }
 }
 @media (max-width: 767px) {
-  body header .head-banner h2 {
+    .start .head-banner h2 {
     font-size: 28px;
   }
-  body header .head-banner h4 {
+    .start .head-banner h4 {
     font-size: 22px;
   }
-  body header .head-banner a {
+    .start .head-banner a {
     margin-right: 0;
     margin-left: 0;
   }
-  body header .head-banner .about {
+    .start .head-banner .about {
     margin-right: 0;
   }
-  body main .about-me {
+    main .about-me {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  body main .about-me .text-block h3 {
+    main .about-me .text-block h3 {
     line-height: 35px;
     font-size: 24px;
     margin-bottom: 25px;
   }
-  body main .lastest-project .feedback .row .text-block p {
+    main .lastest-project .feedback .row .text-block p {
     font-size: 16px;
   }
-  body main .lastest-project .feedback .row .text-block .avatar h6 {
+    main .lastest-project .feedback .row .text-block .avatar h6 {
     font-size: 15px;
   }
-  body main .lastest-project .feedback .row .text-block .avatar h5 {
+    main .lastest-project .feedback .row .text-block .avatar h5 {
     font-size: 12px;
   }
-  body main .lastest-project .feedback .row .text-block .avatar span {
+    main .lastest-project .feedback .row .text-block .avatar span {
     font-size: 18px;
   }
-  body main .services h1 {
+    main .services h1 {
     font-size: 30px;
     margin-bottom: 40px;
   }
-  body main .services .text-block {
+    main .services .text-block {
     text-align: center;
   }
-  body main .services .text-block img {
+    main .services .text-block img {
     margin: auto;
   }
-  body .news .block {
+    .news .block {
     max-width: 370px;
     margin: auto;
     margin-bottom: 30px;
   }
-  body .foot .end {
+    .foot .end {
     padding: 15px 0;
   }
-  body .foot .end .container {
+    .foot .end .container {
     display: block;
     text-align: center;
   }
-  body .foot .end .container .text-block {
+    .foot .end .container .text-block {
     display: inline-block;
     margin-top: 15px;
   }
-  body .foot .foot-block {
+    .foot .foot-block {
     width: 50%;
   }
-  body .foot .foot-quik {
+    .foot .foot-quik {
     order: 3;
   }
-  body .foot .foot-about {
+    .foot .foot-about {
     order: 4;
   }
-  body 
+    
   .foot .send-mail {
     margin-top: 0;
   }
 }
 @media (max-width: 640px) {
-  body header .head-banner a {
+    .start .head-banner a {
     display: block;
     margin-bottom: 25px;
   }
-  body .foot .foot-block {
+    .foot .foot-block {
     margin-bottom: 50px;
     width: 100%;
     padding-right: 0;
     padding-left: 0;
   }
-  body .foot .foot-block .text-block p {
+    .foot .foot-block .text-block p {
     max-width: 100%;
   }
-  body .foot .send-mail {
+    .foot .send-mail {
     margin-top: 0;
   }
-  body main .lastest-project .feedback .row .text-block .avatar h6 {
+    main .lastest-project .feedback .row .text-block .avatar h6 {
     padding-top: 6px;
   }
-  body main .lastest-project .feedback .row .text-block .avatar span {
+    main .lastest-project .feedback .row .text-block .avatar span {
     top: 41px;
     left: 86px;
   }
 }
 @media (max-width: 628px) {
-  body .add_logos {
+    .add_logos {
     justify-content: center;
     margin-bottom: 45px;
   }
 }
 @media (max-width: 375px) {
-  body main .lastest-project .feedback .row .text-block {
+    main .lastest-project .feedback .row .text-block {
     padding-bottom: 40px;
     padding-top: 40px;
   }
-  body main .lastest-project .feedback .row .text-block .avatar {
+    main .lastest-project .feedback .row .text-block .avatar {
     text-align: center;
   }
-  body main .lastest-project .feedback .row .text-block .avatar img {
+    main .lastest-project .feedback .row .text-block .avatar img {
     display: block;
     margin: auto;
     float: none;
   }
-  body main .lastest-project .feedback .row .text-block .avatar span {
+    main .lastest-project .feedback .row .text-block .avatar span {
     position: initial;
   }
-  body .add_logos {
+    .add_logos {
     flex-direction: column;
   }
 }
