@@ -548,59 +548,59 @@ body .add_logos img {
 body .add_logos img:last-child {
   margin-right: 0px;
 }
-footer {
+.foot {
   padding-top: 80px;
   background-color: #f5f6fb;
 }
-footer .foot {
+.foot {
   margin-bottom: 33px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-footer .foot .foot-block:first-child {
+.foot .foot-block:first-child {
   margin-top: 0;
 }
-footer .foot .foot-quik {
+.foot .foot-quik {
   padding-left: 8px;
 }
-footer .foot .foot-about {
+.foot .foot-about {
   padding-right: 18px;
 }
-footer .foot .foot-block {
+.foot .foot-block {
   margin-top: 15px;
 }
-footer .foot .foot-block .text-block p {
+.foot .foot-block .text-block p {
   line-height: 28px;
   max-width: 292px;
   margin-top: 32px;
 }
-footer .foot .foot-block h4 {
+.foot .foot-block h4 {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 33px;
 }
-footer .foot .foot-block ul {
+.foot .foot-block ul {
   padding: 0;
   padding-left: 2px;
 }
-footer .foot .foot-block ul li {
+.foot .foot-block ul li {
   margin-bottom: 13px;
 }
-footer .foot .foot-block ul li a {
+.foot .foot-block ul li a {
   color: #707070;
   font-size: 14px;
 }
-footer .foot .foot-block ul li a:hover {
+.foot .foot-block ul li a:hover {
   opacity: 0.6;
 }
-footer .foot .foot-block ul li:last-child {
+.foot .foot-block ul li:last-child {
   margin-bottom: 0;
 }
-footer .foot .send-mail form {
+.foot .send-mail form {
   float: left;
 }
-footer .foot .send-mail form input {
+.foot .send-mail form input {
   width: 245px;
   padding: 10px;
   padding-bottom: 12px;
@@ -610,34 +610,34 @@ footer .foot .send-mail form input {
   font-family: "PT Sans";
   color: #707070;
 }
-footer .foot .send-mail form a {
+.foot .send-mail form a {
   margin-left: -6px;
 }
-footer .foot .send-mail form a:hover {
+.foot .send-mail form a:hover {
   opacity: 0.6;
 }
-footer .end {
+.end {
   padding: 25px 0;
   border-top: solid 2px #e5e5e5;
 }
-footer .end .container {
+.end .container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-footer .end .container p {
+.end .container p {
   margin-bottom: 0;
 }
-footer .end .container .text-block p {
+.end .container .text-block p {
   float: left;
 }
-footer .end .container .text-block ul {
+.end .container .text-block ul {
   margin-bottom: 0;
   padding-left: 10px;
   float: left;
 }
-footer .end .container .text-block ul li {
+.end .container .text-block ul li {
   float: left;
 }
 @media (max-width: 1400px) {
