@@ -791,23 +791,23 @@ body .add_logos img:last-child {
   body main .news h2 {
     font-size: 36px;
   }
-  body footer .foot .foot-block {
+  body .foot .foot-block {
     margin-top: 0;
     width: 33.333%;
     margin-bottom: 25px;
     text-align: center;
   }
-  body footer .foot .foot-about {
+  body .foot .foot-about {
     margin-right: 0;
   }
-  body footer .foot .text-block p {
+  body .foot .text-block p {
     max-width: 100% !important;
   }
-  body footer .foot .send-mail {
+  body .foot .send-mail {
     margin-top: 50px;
     width: 100%;
   }
-  body footer .foot .send-mail form {
+  body .foot .send-mail form {
     width: 100%;
   }
 }
@@ -861,24 +861,24 @@ body .add_logos img:last-child {
     margin: auto;
     margin-bottom: 30px;
   }
-  body footer .end {
+  body .foot .end {
     padding: 15px 0;
   }
-  body footer .end .container {
+  body .foot .end .container {
     display: block;
     text-align: center;
   }
-  body footer .end .container .text-block {
+  body .foot .end .container .text-block {
     display: inline-block;
     margin-top: 15px;
   }
-  body footer .foot .foot-block {
+  body .foot .foot-block {
     width: 50%;
   }
-  body footer .foot .foot-quik {
+  body .foot .foot-quik {
     order: 3;
   }
-  body footer .foot .foot-about {
+  body .foot .foot-about {
     order: 4;
   }
   body footer .foot .send-mail {
@@ -890,16 +890,16 @@ body .add_logos img:last-child {
     display: block;
     margin-bottom: 25px;
   }
-  body footer .foot .foot-block {
+  body .foot .foot-block {
     margin-bottom: 50px;
     width: 100%;
     padding-right: 0;
     padding-left: 0;
   }
-  body footer .foot .foot-block .text-block p {
+  body .foot .foot-block .text-block p {
     max-width: 100%;
   }
-  body footer .foot .send-mail {
+  body .foot .send-mail {
     margin-top: 0;
   }
   body main .lastest-project .feedback .row .text-block .avatar h6 {
