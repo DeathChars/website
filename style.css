@@ -881,7 +881,8 @@ body .add_logos img:last-child {
   body .foot .foot-about {
     order: 4;
   }
-  body footer .foot .send-mail {
+  body 
+  .foot .send-mail {
     margin-top: 0;
   }
 }
